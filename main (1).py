@@ -1,9 +1,9 @@
-a=int(input())
-i=2
-if a == 0:
-    print('Error')
-elif a == 1:
-    print('Error')
-while a % i != 0:
-    i += 1
-print(i)
+a = []
+while True:
+    b = int(input())
+    if b == 0:
+        break
+    a.append(b)
+
+print (a.count(max(a)))
+print ('This is how much of the biggest numbers repeated while you were trying to find zero:) ')
