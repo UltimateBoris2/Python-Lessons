@@ -1,8 +1,8 @@
-a = int(input())
-b = int(input())
-if a == b:
-    print (0)
-elif a > b:
-    print (1)
-else:
-    print (2)
+a = []
+while True:
+    b = int(input())
+    if b == 0:
+        break
+    a.append(b)
+print (max(a))
+print ('^^^^^^ This is the biggest number you wrote)
